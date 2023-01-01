@@ -1,3 +1,5 @@
+const chai = require('chai');
+const assert = chai.assert;
 /** 1 - Use assert.isNull() or assert.isNotNull() to make the tests pass. **/
 test('#isNull, #isNotNull', function() {
   assert.isNull(
